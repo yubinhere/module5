@@ -1,0 +1,123 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+header{
+  background: green;
+  background-image: url('university.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  }
+h2 {
+  font-size: 1.25rem;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+
+}
+
+/* Layout */
+article {
+
+width: 1500px;
+  margin:10px;
+  background: white;
+
+}
+section {
+ display: flex;
+
+}
+
+p,ul,ol {
+  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+aside {
+  width: 700px;
+
+  margin: 10px;
+  background: white;
+}
+
+nav {
+  width: 700px;
+  margin: 10px;
+  background: white;
+}
+.button button {
+  background-color: #4CAF50;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 90%;
+  margin: 20px;
+  height: 50px;
+  display: block;
+}
+
+.button button:not(:last-child) {
+  border-bottom: none;
+}
+
+
+.button button:hover {
+  background-color: green;
+}
+
+
+footer {
+margin: 10px;
+}
+
+a:link {
+  text-decoration: underline;
+
+  color: green;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+a:active {
+  color: green;
+  text-decoration: none;
+}
+
+h1, h2{
+  font-family: 'Courgette', cursive;
+}
+
+
+header, section, aside, nav, footer {
+  padding-top: : 10px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid green;
+  border-bottom: 5px solid green;
+}
